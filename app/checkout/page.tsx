@@ -57,7 +57,6 @@ export default function Checkout() {
                         Select Size
                       </label>
                       <select className="border p-2">
-                        <option value="">Choose size</option>
                         <option value="EU40">EU 40</option>
                         <option value="EU42">EU 42</option>
                         <option value="EU46">EU 46</option>
