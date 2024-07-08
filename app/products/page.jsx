@@ -3,9 +3,7 @@ import Link from "next/link";
 
 async function getProducts() {
   try {
-    const res = await fetch(
-      process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/products"
-    );
+    const res = await fetch("http://localhost:4000/products");
     if (!res.ok) {
       throw new Error("Failed to fetch products");
     }
