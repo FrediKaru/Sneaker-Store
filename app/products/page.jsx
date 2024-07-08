@@ -24,6 +24,38 @@ const mockProducts = [
     description:
       "Unleash the superstar within you with these iconic men's Adidas Superstar sneakers.",
   },
+  {
+    id: 3,
+    name: "Chuck Taylor All Star",
+    company: "Converse",
+    price: 49.99,
+    sizes: ["EU 41", "EU 47"],
+    gender: "Men",
+    description:
+      "The Chuck Taylor All Star boasts a low-top silhouette, providing a casual and laid-back vibe that pairs perfectly with any outfit.",
+  },
+  {
+    id: 4,
+    name: "Ultra Boost",
+    company: "Adidas",
+    price: 179.99,
+    discountPrice: 129.99,
+    discountPerc: 25,
+    sizes: ["EU 40"],
+    gender: "Men",
+    description:
+      "These running shoes are designed to take your workouts to the next level, thanks to their responsive cushioning and innovative technology. The Ultra Boost features a low-profile yet dynamic silhouette, offering a modern and sleek aesthetic.",
+  },
+  {
+    id: 5,
+    name: "Classic Leather",
+    company: "Reebok",
+    price: 64.99,
+    sizes: ["EU 50", "EU 51"],
+    gender: "Men",
+    description:
+      "Elevate your everyday style with the timeless appeal of the men's Reebok Classic Leather. With a low-profile design and a premium leather upper, the Classic Leather exudes a sophisticated yet laid-back vibe.",
+  },
 ];
 async function getProducts() {
   return mockProducts;
