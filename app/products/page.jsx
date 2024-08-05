@@ -102,7 +102,7 @@ export default async function ProductList() {
     <>
       <div className="grid grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 md:gap-4 content-center">
         {products.map((product) => (
-          <div key={product.id} className="mx-3">
+          <div key={product.id} className="">
             <div>
               <Link href={`/products/${product.id}`}>
                 <div className="my-2">
@@ -113,7 +113,8 @@ export default async function ProductList() {
                     sizes="100vw"
                     style={{
                       width: "100%",
-                      height: "auto",
+                      aspectRatio: "1/1",
+                      objectFit: "cover",
                     }}
                     width={500}
                     height={300}
