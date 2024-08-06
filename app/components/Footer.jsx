@@ -3,74 +3,69 @@ export default function Footer() {
     <div className="mt-auto">
       <div className="grid grid-cols-4">
         <div>
-          <p>
-            <strong>Contact</strong>
-          </p>
+          <p className="footer-title">Contact</p>
           <ul>
-            <li>
-              <a href="">Email</a>
+            <li className="footer-link">
+              <a href="">Live chat</a>
             </li>
-            <li>
-              <a href="">Social media links</a>
+            <li className="footer-link">
+              <a href="">Call</a>
+            </li>
+            <li className="footer-link">
+              <a href="">Email</a>
             </li>
           </ul>
         </div>
         <div>
-          <p>
-            <strong>Help</strong>
-          </p>
+          <p className="footer-title">Help</p>
           <ul>
-            <li>
+            <li className="footer-link">
               <a href="">Contact us</a>
             </li>
-            <li>
+            <li className="footer-link">
               <a href="">Order status</a>
             </li>
-            <li>
+            <li className="footer-link">
               <a href="">Register a return</a>
             </li>
-            <li>
+            <li className="footer-link">
               <a href="">FAQs</a>
             </li>
           </ul>
         </div>
         <div>
-          <p>
-            <strong>Client services</strong>
-          </p>
+          <p className="footer-title">Client services</p>
           <ul>
-            <li>
+            <li className="footer-link">
               <a href="">Product care</a>
             </li>
-            <li>
+            <li className="footer-link">
               <a href="">Account</a>
             </li>
-            <li>
+            <li className="footer-link">
               <a href="">Find a store</a>
             </li>
-            <li>
+            <li className="footer-link">
               <a href="">Gift Cards</a>
             </li>
           </ul>
         </div>
         <div>
-          <p>
-            <strong>Company</strong>
-          </p>
+          <p className="footer-title">Company</p>
           <ul>
-            <li>
+            <li className="footer-link">
               <a href="">About</a>
             </li>
-            <li>
+            <li className="footer-link">
               <a href="">Press</a>
             </li>
-            <li>
+            <li className="footer-link">
               <a href="">Careers</a>
             </li>
-            <li>
+            <li className="footer-link">
               <a href="">Sustainability</a>
             </li>
-            <li>
+            <li className="footer-link">
               <a href="">Legal & Privacy</a>
             </li>
           </ul>
