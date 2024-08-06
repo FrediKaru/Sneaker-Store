@@ -110,12 +110,7 @@ export default async function Product({ params }) {
         </div>
 
         <div className="lg:flex items-center justify-start space-x-3">
-          <div className="">
-            <SelectSize sizes={product.sizes} />
-          </div>
-          <div className="">
-            <AddButton product={product} />
-          </div>
+          <AddButton product={product} />
         </div>
       </div>
     </div>
