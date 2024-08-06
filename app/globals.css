@@ -116,3 +116,14 @@ form button {
   @apply absolute bottom-0 right-0 
       rounded-tl-md;
 }
+
+.footer-title {
+  margin-bottom: 1rem;
+  font-size: 10pt;
+  text-transform: uppercase;
+}
+
+.footer-link {
+  font-size: 10pt;
+  color: rgb(0, 25, 165);
+}

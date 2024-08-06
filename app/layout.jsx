@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`${rubik.className} min-h-screen`}>
         <Providers>
           <Navbar />
-          <div className="min-h-screen mb-48">{children}</div>
+          <div className="min-h-screen mb-52">{children}</div>
           <Footer />
         </Providers>
       </body>
