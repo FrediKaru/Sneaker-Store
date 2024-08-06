@@ -70,10 +70,7 @@ export default function Checkout() {
             ))
           )}
         </div>
-        <h3 className="text-lg font-semibold text-black">
-          Sub-Total <span className="font-bold">€{cartTotal.toFixed(2)}</span>
-        </h3>
-        <p className="text-2x1 font-bold">Free standard delivery</p>
+        <p className="text-2x1">Free standard delivery</p>
       </div>
 
       <div className="md:w-1/3 lg:w-1/4 bg-gray-100 p-6 rounded-md">
@@ -99,7 +96,7 @@ export default function Checkout() {
         </div>
         <p>The prices shown include VAT.</p>
 
-        <button className="w-full py-3 bg-black text-white hover:bg-secondary-dark flex items-center justify-center  tracking-widest ">
+        <button className="w-full py-3 bg-black text-white hover:bg-secondary-dark flex items-center justify-center  tracking-widest mt-6">
           Checkout
         </button>
       </div>
