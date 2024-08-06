@@ -47,17 +47,21 @@ export default function Checkout() {
                 </div>
                 <div className="flex-grow space-y-1">
                   <div className="ml-5">
-                    <p className="text-gray-800 font-semibold uppercase">
-                      {product.company}
+                    <p className="text-black font-semibold">
+                      €{product.price.toFixed(2)}
                     </p>
-                    <h1 className="text-xl font-bold">{product.name}</h1>
-                    <p className="text-gray-600">€{product.price.toFixed(2)}</p>
-                    <p className="text-green-600">In stock</p>
+                    <div className="font-normal">
+                      <div className="text-gray-800 flex gap-2">
+                        <p className="uppercase">{product.company}</p>
+                        <p>{product.name}</p>
+                      </div>
+                      <p>{product.size}</p>
+                      <p className="text-green-600 mt-4">In stock</p>
+                    </div>
                     <div>
                       <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                         Select Size
                       </label>
-                      <p>{product.size}</p>
                     </div>
                   </div>
                 </div>
