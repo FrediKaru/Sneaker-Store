@@ -8,6 +8,7 @@ export interface Product {
   company: string;
   discountPrice: number;
   sizes: Array<string>;
+  size?: string;
   price: number;
   gender: string;
   description: string;
