@@ -52,6 +52,7 @@ export default function Checkout() {
                     </p>
                     <h1 className="text-xl font-bold">{product.name}</h1>
                     <p className="text-gray-600">€{product.price.toFixed(2)}</p>
+                    <p className="text-green-600">In stock</p>
                     <div>
                       <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                         Select Size
@@ -66,7 +67,7 @@ export default function Checkout() {
           )}
         </div>
         <h3 className="text-lg font-semibold text-black">
-          Sub-Total <span className="font-bold">€{cartTotal}</span>
+          Sub-Total <span className="font-bold">€{cartTotal.toFixed(2)}</span>
         </h3>
         <p className="text-2x1 font-bold">Free standard delivery</p>
       </div>
@@ -82,11 +83,17 @@ export default function Checkout() {
             €{cartTotal.toFixed(2)}
           </span>
         </div>
-
         <div className="flex justify-between">
           <h4 className="text-md mb-2">Delivery</h4>
           <span className="font-bold text-gray-600">€{deliveryCost}</span>
         </div>
+        <div className="flex justify-between space-x-8">
+          <h4 className="md:text-md mb-2">Total </h4>
+          <span className="font-bold text-gray-600">
+            €{cartTotal.toFixed(2)}
+          </span>
+        </div>
+        <p>The prices shown include VAT.</p>
 
         <button className="w-full py-3 bg-black text-white hover:bg-secondary-dark flex items-center justify-center  tracking-widest ">
           Checkout
