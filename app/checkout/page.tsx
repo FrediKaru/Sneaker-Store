@@ -56,11 +56,7 @@ export default function Checkout() {
                       <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                         Select Size
                       </label>
-                      <select className="border p-2">
-                        <option value="EU40">EU 40</option>
-                        <option value="EU42">EU 42</option>
-                        <option value="EU46">EU 46</option>
-                      </select>
+                      <p>{product.size}</p>
                     </div>
                   </div>
                 </div>
