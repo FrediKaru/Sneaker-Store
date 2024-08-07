@@ -24,10 +24,10 @@ export default function Navbar() {
             <Link className="mx-2" href="/products">
               Collections
             </Link>
-            <Link className="mx-2" href="/">
+            <Link className="mx-2" href="/products">
               Men
             </Link>
-            <Link className="mx-2" href="/">
+            <Link className="mx-2" href="/products">
               Women
             </Link>
             <Link className="mx-2" href="/">
