@@ -85,12 +85,14 @@ export default async function Product({ params }) {
         />
       </div>
       <div className="basis-1/3 flex flex-col space-y-6">
-        <h4 className="text-lightGray uppercase tracking-widest text-sm">
-          {product.company}
-        </h4>
-        <h1 className="text-black text-4xl font-semibold mb-2">
-          {product.name}
-        </h1>
+        <div>
+          <h4 className="uppercase tracking-widest text-sm mb-2">
+            {product.company}
+          </h4>
+          <h1 className="text-black text-4xl font-semibold mb-2">
+            {product.name}
+          </h1>
+        </div>
         <p className="text-gray-600">{product.description}</p>
         <div>
           <div className="flex items-center">

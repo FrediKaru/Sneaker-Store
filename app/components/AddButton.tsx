@@ -25,7 +25,7 @@ export default function AddButton({ product }) {
     dispatch(addToCart(product));
   };
   return (
-    <div>
+    <div className="flex flex-col gap-5">
       <select className="border p-2 rounded-md" onChange={handleSizeSelect}>
         <option value="0">Choose size</option>
         {product.sizes.map((size = "24") => (
@@ -36,16 +36,16 @@ export default function AddButton({ product }) {
       </select>
       <button
         onClick={() => handleAddToCart(activeProduct)}
-        className="btn-primary my-auto py-2 px-6 xl:px-10 rounded-md mt-0"
+        className="btn-primary my-auto py-2 px-6 xl:px-10 mt-0"
       >
-        <Image
+        {/* <Image
           className="p-0"
           src={Cart}
           alt="Sneakers"
           width={15}
           height={10}
-        />
-        Add to basket
+        /> */}
+        ADD TO BASKET
       </button>
     </div>
   );
